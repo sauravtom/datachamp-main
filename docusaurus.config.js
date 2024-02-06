@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Datachamp',
-  tagline: 'Learn DataScience the fun way',
+  tagline: 'We are Data & AI Experts',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -85,8 +85,8 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/sauravtom/',
-            label: 'GitHub',
+            href: 'https://topmate.io/sauraav',
+            label: 'Work with us',
             position: 'right',
           },
         ],
