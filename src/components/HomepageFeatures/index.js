@@ -4,36 +4,40 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Custom AI Solutions',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Tailored generative AI strategies that fit your unique business needs. Our team works
+        closely with you to develop and implement custom AI models that enhance your product offerings
+        and operational efficiency.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'AI Integration Support',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Seamless integration of AI technologies into your existing systems. From planning to execution, we provide
+        comprehensive support to ensure your business leverages the full potential of generative AI, enhancing
+        user experience and automating processes.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Innovative AI Training',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Equip your team with the knowledge and skills to utilize generative AI technologies. Our workshops
+        and training sessions are designed to empower your team with the latest AI advancements, fostering
+        innovation and creativity.
       </>
     ),
   },
 ];
+
 
 function Feature({Svg, title, description}) {
   return (
