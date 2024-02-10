@@ -55,7 +55,7 @@ export default function Footer() {
     <footer className={clsx("",styles.footer)}>
        <div className="container mx-auto max-w-lg">
           <form className={styles.form} onSubmit={(e) => handleSubmit(e)}>
-            <h2>Contact Us</h2>
+            <h2 className='text--center'>Contact Us</h2>
             <input id="name" placeholder="Your Name" required type="text" />
             <input id="email" placeholder="Your Email" required type="email" />
             <textarea id="message" rows={5} placeholder="Your Message" required />
