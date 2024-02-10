@@ -12,19 +12,13 @@ import { Toaster } from 'react-hot-toast'
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('', styles.heroBanner)}>
+    <header className={styles.heroBanner}>
       <div className="container">
-        <Heading as="h1" className={clsx('', styles.heroTitle)}>
+        <Heading as="h1" className={styles.heroTitle}>
           {siteConfig.title}
         </Heading>
-        <p className={clsx('', styles.hero__subtitle)}>{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          {/* <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Prompt Engineering   Handbook 
-          </Link> */} 
-        </div>
+        <p className={styles.hero__subtitle}>{siteConfig.tagline}</p>
+      
       </div>
     </header>
   );
