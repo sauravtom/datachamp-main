@@ -7,6 +7,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 import Footer from '../components/Footer';
+import { Toaster } from 'react-hot-toast'
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -40,6 +41,7 @@ export default function Home() {
         <HomepageFeatures />
       </main>
       <Footer />
+      <Toaster />
     </Layout>
   );
 }

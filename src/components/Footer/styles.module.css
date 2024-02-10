@@ -8,6 +8,42 @@
   padding-top: 1rem;
 }
 
+.form{
+  display: grid;
+  gap: 1rem;
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2rem;
+}
+
+.form input{
+  padding: 9px;
+  border-radius: 6px;
+  background: #fff;
+  color: black;
+  border-color: gray;
+}
+.form textarea{
+  padding: 9px;
+  border-radius: 6px;
+  background: #fff;
+  border-color: gray;
+  color: black;
+}
+.form button{
+  padding: 9px;
+  border-radius: 6px;
+  background-color: #1a1818;
+  color: white;
+  border: 0;
+  font-size: large;
+}
+
+.form h2{
+  font-size: 2rem;
+}
+
 [data-theme='dark'] {
   .footer{
     background: #111827;
