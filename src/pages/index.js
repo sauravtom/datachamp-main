@@ -7,17 +7,17 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 import Footer from '../components/Footer';
-import { Toaster } from 'react-hot-toast'
+import { Toaster } from 'react-hot-toast';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={styles.heroBanner}>
+    <header className={clsx("text--center",styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className={styles.heroTitle}>
           {siteConfig.title}
         </Heading>
-        <p className={styles.hero__subtitle}>{siteConfig.tagline}</p>
+        <p className={clsx("text--center",styles.hero__subtitle)}>{siteConfig.tagline}</p>
       
       </div>
     </header>

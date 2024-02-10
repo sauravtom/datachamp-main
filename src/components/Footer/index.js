@@ -62,7 +62,7 @@ export default function Footer() {
             <button disabled={loading} type="submit">{loading?"sending mail...":"Submit"}</button>
           </form>
         </div>
-      <p>© 2024 Datachamp AI Solutions. All rights reserved.</p>
+      <p className='text--center'>© 2024 Datachamp AI Solutions. All rights reserved.</p>
     </footer>
   );
 }
