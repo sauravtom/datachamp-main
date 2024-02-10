@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Datachamp',
-  tagline: 'We are Data & AI Experts',
+  title: `Explore Datachamp's AI Solutions`,
+  tagline: 'Our AI consultancy services are designed to transform your business and unlock the power of data.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -91,51 +91,51 @@ const config = {
           },
         ],
       },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Prompt Engineering Handbook',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'topmate',
-                href: 'https://topmate.io/sauraav',
-              },
-              {
-                label: 'Linkedin',
-                href: 'https://www.linkedin.com/in/sauraav007/',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/almlbigdata',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/sauravtom',
-              },
-            ],
-          },
-        ],
-        //copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-      },
+      // footer: {
+      //   style: 'dark',
+      //   links: [
+      //     {
+      //       title: 'Docs',
+      //       items: [
+      //         {
+      //           label: 'Prompt Engineering Handbook',
+      //           to: '/docs/intro',
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       title: 'Community',
+      //       items: [
+      //         {
+      //           label: 'topmate',
+      //           href: 'https://topmate.io/sauraav',
+      //         },
+      //         {
+      //           label: 'Linkedin',
+      //           href: 'https://www.linkedin.com/in/sauraav007/',
+      //         },
+      //         {
+      //           label: 'Twitter',
+      //           href: 'https://twitter.com/almlbigdata',
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       title: 'More',
+      //       items: [
+      //         {
+      //           label: 'Blog',
+      //           to: '/blog',
+      //         },
+      //         {
+      //           label: 'GitHub',
+      //           href: 'https://github.com/sauravtom',
+      //         },
+      //       ],
+      //     },
+      //   ],
+      //   //copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      // },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,

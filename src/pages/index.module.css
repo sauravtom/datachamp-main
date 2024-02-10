@@ -10,6 +10,49 @@
   overflow: hidden;
 }
 
+.hero__subtitle {
+  max-width: 600px;
+  /* color: whitesmoke; */
+  font-size: 1rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* nir */
+
+.heroTitle{
+  font-size: 2rem; 
+  line-height: 2.25rem; 
+  font-weight: bold;
+  letter-spacing: -0.05em;
+/* 
+  background: linear-gradient(to right, #ffffff, #7f7f7f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+@media (min-width: 640px) {
+  .heroTitle {
+    font-size: 3.875rem;
+    line-height: 3.75rem; 
+  }
+  .hero__subtitle{
+    font-size: 1.25rem;
+  }
+}
+
+/* nir */
+
+
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
@@ -21,3 +64,4 @@
   align-items: center;
   justify-content: center;
 }
+

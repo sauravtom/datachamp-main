@@ -6,6 +6,13 @@
 }
 
 .featureSvg {
-  height: 200px;
-  width: 200px;
+  height: 30px;
+  width: 30px;
 }
+
+[data-theme='dark'] {
+  .subtitle{
+    color: #E4E4E7;
+  }
+}
+
