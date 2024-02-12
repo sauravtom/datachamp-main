@@ -87,7 +87,7 @@ const config = {
           // },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://topmate.io/sauraav',
+            href: 'https://www.datachamp.in/contact',
             label: 'Contact us',
             position: 'right',
           },
