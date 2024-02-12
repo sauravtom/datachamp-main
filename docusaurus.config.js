@@ -34,6 +34,8 @@ const config = {
     locales: ['en'],
   },
 
+  plugins: ['docusaurus-plugin-sass'],
+
   presets: [
     [
       'classic',
@@ -85,7 +87,8 @@ const config = {
           // },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://topmate.io/sauraav',
+            // href: 'https://topmate.io/sauraav',
+            href: '/contact',
             label: 'Contact us',
             position: 'right',
           },

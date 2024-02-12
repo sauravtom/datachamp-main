@@ -1,11 +1,12 @@
 import ContactForm from '../Contact/ContactForm';
+import styles from './styles.module.scss';
 
 export default function Footer() {
 
   return (
     <>
     <ContactForm />
-    <footer className={"endFooter"}>
+    <footer className={styles.endFooter}>
       <p>© 2024 Datachamp AI Solutions. All rights reserved.</p>
       <div>
         <a href='docs/intro'>Tutorial</a>
