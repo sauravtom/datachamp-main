@@ -28,3 +28,79 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* footer */
+.footer {
+  text-align: center;
+}
+
+.footer p {
+  height: 100%;
+  width: 100%;
+  padding-top: 1rem;
+}
+
+.form{
+  display: grid;
+  gap: 1rem;
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2rem;
+}
+
+.form input{
+  padding: 9px;
+  border-radius: 6px;
+  background: #fff;
+  color: black;
+  border-color: gray;
+}
+.form textarea{
+  padding: 9px;
+  border-radius: 6px;
+  background: #fff;
+  border-color: gray;
+  color: black;
+}
+.form button{
+  padding: 9px;
+  border-radius: 6px;
+  background-color: #1a1818;
+  color: white;
+  border: 0;
+  font-size: large;
+}
+
+.form h2{
+  font-size: 2rem;
+}
+
+[data-theme='dark'] {
+  .footer{
+    background: #111827;
+    color: #E4E4E7;
+  }
+}
+
+
+/* homepage feature */
+
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 30px;
+  width: 30px;
+}
+
+[data-theme='dark'] {
+  .subtitle{
+    color: #E4E4E7;
+  }
+}
+

@@ -11,7 +11,7 @@ export default function Footer() {
     setLoading(true);
     const templateParams = {
       from_name: email,
-      to_name: name,
+      to_name: name,  
       receiver_email: 'saurav.kumar@favcy.in',
       message: message
     };
@@ -52,9 +52,10 @@ export default function Footer() {
   }
 
   return (
-    <footer className={clsx("",styles.footer)}>
+    // clsx("",styles.footer)
+    <footer className={'footer'}>
        <div className="container mx-auto max-w-lg">
-          <form className={styles.form} onSubmit={(e) => handleSubmit(e)}>
+          <form className={"form"} onSubmit={(e) => handleSubmit(e)}>
             <h2 className='text--center'>Contact Us</h2>
             <input id="name" placeholder="Your Name" required type="text" />
             <input id="email" placeholder="Your Email" required type="email" />
