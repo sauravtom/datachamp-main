@@ -1,12 +1,11 @@
 import React from "react";
-import ContactForm from "../../components/Contact/ContactForm";
-import Layout from "@theme/Layout";
-import styles from './styles.module.scss';
-
-const index = () => {
+import Layout from '@theme/Layout';
+import ContactForm from "../components/Contact/ContactForm";
+import styles from './index.module.css';
+export default function Contact(){
   return (
     <Layout>
-      <div className={styles.contact-page}>
+     <div className={styles.contactpage}>
         <ContactForm />
       </div>
       <footer className={styles.endFooter}>
@@ -19,5 +18,3 @@ const index = () => {
     </Layout>
   );
 };
-
-export default index;
