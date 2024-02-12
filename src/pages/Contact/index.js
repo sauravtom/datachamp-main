@@ -1,6 +1,7 @@
 import React from "react";
 import ContactForm from "../../components/Contact/ContactForm";
 import Layout from "@theme/Layout";
+import styles from '../../components/Footer/styles.module.scss';
 
 const index = () => {
   return (
@@ -8,7 +9,7 @@ const index = () => {
       <div className="contact-page">
         <ContactForm />
       </div>
-      <footer className='endFooter'>
+      <footer className={styles.endFooter}>
                 <p className=''>© 2024 Datachamp AI Solutions. All rights reserved.</p>
                 <div className=''>
                     <a href='docs/intro'>Tutorial</a>
