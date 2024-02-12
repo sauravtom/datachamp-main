@@ -66,9 +66,9 @@
 .form button{
   padding: 9px;
   border-radius: 6px;
-  background-color: #1a1818;
+  background-color: rgb(1, 1, 28);
   color: white;
-  border: 0;
+  border: 2px;
   font-size: large;
 }
 
@@ -83,7 +83,45 @@
   }
 }
 
+.endFooter{
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  padding-top: 17px;
+  padding-bottom: 4px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-top: 12px;
+  background-color: #242526;
+}
 
+.endFooter p{
+  text-align: start;
+}
+
+.endFooter div{
+  display: flex;
+  justify-self: end;
+}
+
+.endFooter div > a{
+  list-style: none;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .endFooter{
+    flex-direction: column;
+  }
+  .endFooter p{
+    text-align: center;
+  }
+  .endFooter div{
+    flex-direction: column;
+  }
+}
 /* homepage feature */
 
 .features {
@@ -104,3 +142,11 @@
   }
 }
 
+/*contact--page  */
+
+.contact-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
