@@ -1,12 +1,12 @@
 import React from "react";
 import ContactForm from "../../components/Contact/ContactForm";
 import Layout from "@theme/Layout";
-import styles from '../../components/Footer/styles.module.scss';
+import styles from './styles.module.scss';
 
 const index = () => {
   return (
     <Layout>
-      <div className="contact-page">
+      <div className={styles.contact-page}>
         <ContactForm />
       </div>
       <footer className={styles.endFooter}>
