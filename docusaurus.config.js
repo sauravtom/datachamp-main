@@ -87,7 +87,7 @@ const config = {
           // },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://datachamp-main.vercel.app/contact',
+            href: 'https://topmate.io/sauraav',
             label: 'Contact us',
             position: 'right',
           },
