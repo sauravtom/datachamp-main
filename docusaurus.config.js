@@ -87,8 +87,7 @@ const config = {
           // },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            // href: 'https://topmate.io/sauraav',
-            href: '/contact',
+            href: 'https://topmate.io/sauraav',
             label: 'Contact us',
             position: 'right',
           },
