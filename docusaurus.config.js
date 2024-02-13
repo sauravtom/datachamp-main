@@ -79,13 +79,13 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'tutorialSidebar',
-          //   position: 'left',
-          //   label: 'Tutorial',
-          // },
-          // {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'Tutorial',
+          },
+          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://www.datachamp.in/contact',
             label: 'Contact us',
@@ -130,13 +130,18 @@ const config = {
       //           to: '/blog',
       //         },
       //         {
+      //           label: 'Tutorial',
+      //           href: '/docs/intro',
+      //         },
+      //         {
       //           label: 'GitHub',
       //           href: 'https://github.com/sauravtom',
       //         },
       //       ],
       //     },
       //   ],
-      //   //copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      //   // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      //   copyright: `© 2024 Datachamp AI Solutions. All rights reserved.`,
       // },
       prism: {
         theme: prismThemes.github,

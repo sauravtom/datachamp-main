@@ -1,6 +1,6 @@
 import clsx from "clsx";
 import Heading from "@theme/Heading";
-import styles from "./styles.module.css";
+import styles from "./styles.module.scss";
 import {
   AppleIcon,
   LockIcon,
@@ -74,7 +74,7 @@ const FeatureList = [
 
 function Feature({ Svg, title, description }) {
   return (
-    <div className={clsx("col col--4")}>
+    <div className={clsx("col col--4", styles.bottomPadding)}>
       <div className="text--center">
         <Svg className={"featureSvg"} role="img" />
       </div>

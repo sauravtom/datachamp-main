@@ -150,3 +150,9 @@
   align-items: center;
   height: 90vh;
 }
+
+/* main in src/pages/index */
+
+.bottom-padding {
+  padding-bottom: 4rem;
+}

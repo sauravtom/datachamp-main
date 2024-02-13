@@ -6,6 +6,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
+import ContactForm from '../components/Contact/ContactForm'
 import Footer from '../components/Footer';
 import { Toaster } from 'react-hot-toast';
 
@@ -31,8 +32,9 @@ export default function Home() {
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
-      <main>
+      <main className='bottom-padding'>
         <HomepageFeatures />
+        <ContactForm />
       </main>
       <Footer />
       <Toaster />
