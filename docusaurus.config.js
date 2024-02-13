@@ -93,56 +93,56 @@ const config = {
           },
         ],
       },
-      // footer: {
-      //   style: 'dark',
-      //   links: [
-      //     {
-      //       title: 'Docs',
-      //       items: [
-      //         {
-      //           label: 'Prompt Engineering Handbook',
-      //           to: '/docs/intro',
-      //         },
-      //       ],
-      //     },
-      //     {
-      //       title: 'Community',
-      //       items: [
-      //         {
-      //           label: 'topmate',
-      //           href: 'https://topmate.io/sauraav',
-      //         },
-      //         {
-      //           label: 'Linkedin',
-      //           href: 'https://www.linkedin.com/in/sauraav007/',
-      //         },
-      //         {
-      //           label: 'Twitter',
-      //           href: 'https://twitter.com/almlbigdata',
-      //         },
-      //       ],
-      //     },
-      //     {
-      //       title: 'More',
-      //       items: [
-      //         {
-      //           label: 'Blog',
-      //           to: '/blog',
-      //         },
-      //         {
-      //           label: 'Tutorial',
-      //           href: '/docs/intro',
-      //         },
-      //         {
-      //           label: 'GitHub',
-      //           href: 'https://github.com/sauravtom',
-      //         },
-      //       ],
-      //     },
-      //   ],
-      //   // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-      //   copyright: `© 2024 Datachamp AI Solutions. All rights reserved.`,
-      // },
+      footer: {
+        style: 'dark',
+        links: [
+          {
+            title: 'Docs',
+            items: [
+              {
+                label: 'Prompt Engineering Handbook',
+                to: '/docs/intro',
+              },
+            ],
+          },
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'topmate',
+                href: 'https://topmate.io/sauraav',
+              },
+              {
+                label: 'Linkedin',
+                href: 'https://www.linkedin.com/in/sauraav007/',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/almlbigdata',
+              },
+            ],
+          },
+          {
+            title: 'More',
+            items: [
+              {
+                label: 'Blog',
+                to: '/blog',
+              },
+              {
+                label: 'Tutorial',
+                href: '/docs/intro',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/sauravtom',
+              },
+            ],
+          },
+        ],
+        // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `© 2024 Datachamp AI Solutions. All rights reserved.`,
+      },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,

@@ -36,7 +36,7 @@ export default function Home() {
         <HomepageFeatures />
         <ContactForm />
       </main>
-      <Footer />
+      {/* <Footer /> */}
       <Toaster />
     </Layout>
   );

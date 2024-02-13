@@ -9,7 +9,7 @@ export default function Contact(){
      <div className={styles.contactpage}>
         <ContactForm />
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </Layout>
   );
 };
